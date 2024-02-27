@@ -69,12 +69,76 @@ header>a:hover {
 
 
 
-#sideBar {
+#sidebar {
     position: absolute;
     top: 10%;
     background-color: #CDCFD4;
     width: 16.2%;
     height: 114%;
+}
+
+#searchBar {
+    position: absolute;
+    width: 95%;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0.75%;
+    height: 3%;
+    font-size: 1.5rem;
+    outline-width: 1px;
+    outline-color: black;
+    outline-style: solid;
+}
+
+#sidebarMenu {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 56%;
+    width: 67%;
+    top: 6%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#sidebarMenu>a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    background-color: #7DBEC3;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+#sidebarMenu>a:hover {
+    background-color: #52afb6;
+}
+
+#sidebarMenu>:nth-child(4) {
+    background-color: #219AA4;
+}
+
+#comments {
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    background-color: #7DBEC3;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    text-align: center;
+    border-radius: 1rem;
+    bottom: 7%;
+    left: 50%;
+    width: 67%;
+    transform: translateX(-50%);
+}
+
+#comments:hover {
+    background-color: #52afb6;
 }
 
 
@@ -87,5 +151,5 @@ footer {
     background-color: #2A3233;
     width: 100%;
     aspect-ratio: 6.25 / 1;
-    top: 114%;
+    top: 124%;
 }
