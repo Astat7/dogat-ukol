@@ -171,6 +171,71 @@ hr {
     border-width: 0;
 }
 
+#menu {
+    position: absolute;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 50% 50%;
+    left: 16.2%;
+    margin-left: 2%;
+    top: 35%;
+    width: 77.1%;
+    height: 85%;
+}
+
+#menu>div {
+    position: relative;
+    background-color: #7DBEC3;
+    margin: 5%;
+    padding: 5%;
+    border-radius: 2rem;
+}
+
+#menu>div:hover {
+    background-color: #52afb6;
+}
+
+#menu>div>img {
+    background-color: #FFFFFF;
+    position: absolute;
+    width: 80%;
+    padding: 2.5%;
+    border-radius: 2rem;
+    aspect-ratio: 1.5 / 1;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#menu>div>h2 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 18%;
+    font-size: 1.1rem;
+    width: 80%;
+    text-align: center;
+}
+
+#menu>div>p {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 3%;
+    font-size: 1.7rem;
+}
+
+#menu>div>a {
+    position: absolute;
+}
+
+#menu>div>a>img {
+    filter: invert(100%);
+    width: 100%;
+    height: 100%;
+}
+
+
+
 
 
 footer {
